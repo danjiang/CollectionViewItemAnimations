@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ACCF40217CCEC1700F56F10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACCF40117CCEC1700F56F10 /* UIKit.framework */; };
+		9ACCF40417CCEC1700F56F10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACCF40317CCEC1700F56F10 /* Foundation.framework */; };
+		9ACCF40617CCEC1700F56F10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACCF40517CCEC1700F56F10 /* CoreGraphics.framework */; };
+		9ACCF40C17CCEC1700F56F10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ACCF40A17CCEC1700F56F10 /* InfoPlist.strings */; };
+		9ACCF40E17CCEC1700F56F10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACCF40D17CCEC1700F56F10 /* main.m */; };
+		9ACCF41217CCEC1700F56F10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACCF41117CCEC1700F56F10 /* AppDelegate.m */; };
+		9ACCF41417CCEC1700F56F10 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ACCF41317CCEC1700F56F10 /* Default.png */; };
+		9ACCF41617CCEC1700F56F10 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ACCF41517CCEC1700F56F10 /* Default@2x.png */; };
+		9ACCF41817CCEC1700F56F10 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ACCF41717CCEC1700F56F10 /* Default-568h@2x.png */; };
+		9ACCF41B17CCEC1700F56F10 /* ColorCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACCF41A17CCEC1700F56F10 /* ColorCollectionViewController.m */; };
+		9ACCF42C17CCEFF100F56F10 /* LessBoringFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACCF42B17CCEFF100F56F10 /* LessBoringFlowLayout.m */; };
+		9ACCF42E17CCF16500F56F10 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACCF42D17CCF16500F56F10 /* QuartzCore.framework */; };
+		9ACCF43517CCF21A00F56F10 /* ColorName.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACCF43417CCF21A00F56F10 /* ColorName.m */; };
+		9ACCF43817CCF48100F56F10 /* ColorNameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACCF43717CCF48100F56F10 /* ColorNameCell.m */; };
+		9ACCF43B17CCF48C00F56F10 /* AddCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACCF43A17CCF48C00F56F10 /* AddCell.m */; };
+		9ACCF43D17CCF49800F56F10 /* ColorNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ACCF43C17CCF49800F56F10 /* ColorNameCell.xib */; };
+		9ACCF43F17CCF4A300F56F10 /* AddCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ACCF43E17CCF4A300F56F10 /* AddCell.xib */; };
+		9ACCF44217CCFCF000F56F10 /* ColorSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACCF44117CCFCF000F56F10 /* ColorSectionHeaderView.m */; };
+		9ACCF44517CCFD0200F56F10 /* ColorSectionFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACCF44417CCFD0200F56F10 /* ColorSectionFooterView.m */; };
+		9ACCF44717CCFD1A00F56F10 /* ColorSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ACCF44617CCFD1A00F56F10 /* ColorSectionHeaderView.xib */; };
+		9ACCF44917CCFD2500F56F10 /* ColorSectionFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ACCF44817CCFD2500F56F10 /* ColorSectionFooterView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9ACCF3FE17CCEC1700F56F10 /* CollectionViewItemAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewItemAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ACCF40117CCEC1700F56F10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9ACCF40317CCEC1700F56F10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9ACCF40517CCEC1700F56F10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9ACCF40917CCEC1700F56F10 /* CollectionViewItemAnimations-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollectionViewItemAnimations-Info.plist"; sourceTree = "<group>"; };
+		9ACCF40B17CCEC1700F56F10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9ACCF40D17CCEC1700F56F10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9ACCF40F17CCEC1700F56F10 /* CollectionViewItemAnimations-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CollectionViewItemAnimations-Prefix.pch"; sourceTree = "<group>"; };
+		9ACCF41017CCEC1700F56F10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9ACCF41117CCEC1700F56F10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9ACCF41317CCEC1700F56F10 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9ACCF41517CCEC1700F56F10 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9ACCF41717CCEC1700F56F10 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9ACCF41917CCEC1700F56F10 /* ColorCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorCollectionViewController.h; sourceTree = "<group>"; };
+		9ACCF41A17CCEC1700F56F10 /* ColorCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorCollectionViewController.m; sourceTree = "<group>"; };
+		9ACCF42A17CCEFF100F56F10 /* LessBoringFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessBoringFlowLayout.h; sourceTree = "<group>"; };
+		9ACCF42B17CCEFF100F56F10 /* LessBoringFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessBoringFlowLayout.m; sourceTree = "<group>"; };
+		9ACCF42D17CCF16500F56F10 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9ACCF43317CCF21A00F56F10 /* ColorName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorName.h; sourceTree = "<group>"; };
+		9ACCF43417CCF21A00F56F10 /* ColorName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorName.m; sourceTree = "<group>"; };
+		9ACCF43617CCF48100F56F10 /* ColorNameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorNameCell.h; sourceTree = "<group>"; };
+		9ACCF43717CCF48100F56F10 /* ColorNameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorNameCell.m; sourceTree = "<group>"; };
+		9ACCF43917CCF48C00F56F10 /* AddCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCell.h; sourceTree = "<group>"; };
+		9ACCF43A17CCF48C00F56F10 /* AddCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCell.m; sourceTree = "<group>"; };
+		9ACCF43C17CCF49800F56F10 /* ColorNameCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorNameCell.xib; sourceTree = "<group>"; };
+		9ACCF43E17CCF4A300F56F10 /* AddCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddCell.xib; sourceTree = "<group>"; };
+		9ACCF44017CCFCF000F56F10 /* ColorSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSectionHeaderView.h; sourceTree = "<group>"; };
+		9ACCF44117CCFCF000F56F10 /* ColorSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSectionHeaderView.m; sourceTree = "<group>"; };
+		9ACCF44317CCFD0200F56F10 /* ColorSectionFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSectionFooterView.h; sourceTree = "<group>"; };
+		9ACCF44417CCFD0200F56F10 /* ColorSectionFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSectionFooterView.m; sourceTree = "<group>"; };
+		9ACCF44617CCFD1A00F56F10 /* ColorSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorSectionHeaderView.xib; sourceTree = "<group>"; };
+		9ACCF44817CCFD2500F56F10 /* ColorSectionFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorSectionFooterView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ACCF3FB17CCEC1700F56F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACCF42E17CCF16500F56F10 /* QuartzCore.framework in Frameworks */,
+				9ACCF40217CCEC1700F56F10 /* UIKit.framework in Frameworks */,
+				9ACCF40417CCEC1700F56F10 /* Foundation.framework in Frameworks */,
+				9ACCF40617CCEC1700F56F10 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ACCF3F517CCEC1700F56F10 = {
+			isa = PBXGroup;
+			children = (
+				9ACCF40717CCEC1700F56F10 /* CollectionViewItemAnimations */,
+				9ACCF40017CCEC1700F56F10 /* Frameworks */,
+				9ACCF3FF17CCEC1700F56F10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ACCF3FF17CCEC1700F56F10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ACCF3FE17CCEC1700F56F10 /* CollectionViewItemAnimations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ACCF40017CCEC1700F56F10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9ACCF42D17CCF16500F56F10 /* QuartzCore.framework */,
+				9ACCF40117CCEC1700F56F10 /* UIKit.framework */,
+				9ACCF40317CCEC1700F56F10 /* Foundation.framework */,
+				9ACCF40517CCEC1700F56F10 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9ACCF40717CCEC1700F56F10 /* CollectionViewItemAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				9ACCF42917CCEF2300F56F10 /* Cells and Supplementary Views */,
+				9ACCF43217CCF20600F56F10 /* Model */,
+				9ACCF42817CCEF0F00F56F10 /* Layout */,
+				9ACCF42717CCEF0500F56F10 /* View Controllers */,
+				9ACCF41017CCEC1700F56F10 /* AppDelegate.h */,
+				9ACCF41117CCEC1700F56F10 /* AppDelegate.m */,
+				9ACCF40817CCEC1700F56F10 /* Supporting Files */,
+			);
+			path = CollectionViewItemAnimations;
+			sourceTree = "<group>";
+		};
+		9ACCF40817CCEC1700F56F10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9ACCF40917CCEC1700F56F10 /* CollectionViewItemAnimations-Info.plist */,
+				9ACCF40A17CCEC1700F56F10 /* InfoPlist.strings */,
+				9ACCF40D17CCEC1700F56F10 /* main.m */,
+				9ACCF40F17CCEC1700F56F10 /* CollectionViewItemAnimations-Prefix.pch */,
+				9ACCF41317CCEC1700F56F10 /* Default.png */,
+				9ACCF41517CCEC1700F56F10 /* Default@2x.png */,
+				9ACCF41717CCEC1700F56F10 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9ACCF42717CCEF0500F56F10 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9ACCF41917CCEC1700F56F10 /* ColorCollectionViewController.h */,
+				9ACCF41A17CCEC1700F56F10 /* ColorCollectionViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9ACCF42817CCEF0F00F56F10 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				9ACCF42A17CCEFF100F56F10 /* LessBoringFlowLayout.h */,
+				9ACCF42B17CCEFF100F56F10 /* LessBoringFlowLayout.m */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		9ACCF42917CCEF2300F56F10 /* Cells and Supplementary Views */ = {
+			isa = PBXGroup;
+			children = (
+				9ACCF43617CCF48100F56F10 /* ColorNameCell.h */,
+				9ACCF43717CCF48100F56F10 /* ColorNameCell.m */,
+				9ACCF43C17CCF49800F56F10 /* ColorNameCell.xib */,
+				9ACCF43917CCF48C00F56F10 /* AddCell.h */,
+				9ACCF43A17CCF48C00F56F10 /* AddCell.m */,
+				9ACCF43E17CCF4A300F56F10 /* AddCell.xib */,
+				9ACCF44017CCFCF000F56F10 /* ColorSectionHeaderView.h */,
+				9ACCF44117CCFCF000F56F10 /* ColorSectionHeaderView.m */,
+				9ACCF44617CCFD1A00F56F10 /* ColorSectionHeaderView.xib */,
+				9ACCF44317CCFD0200F56F10 /* ColorSectionFooterView.h */,
+				9ACCF44417CCFD0200F56F10 /* ColorSectionFooterView.m */,
+				9ACCF44817CCFD2500F56F10 /* ColorSectionFooterView.xib */,
+			);
+			name = "Cells and Supplementary Views";
+			sourceTree = "<group>";
+		};
+		9ACCF43217CCF20600F56F10 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9ACCF43317CCF21A00F56F10 /* ColorName.h */,
+				9ACCF43417CCF21A00F56F10 /* ColorName.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ACCF3FD17CCEC1700F56F10 /* CollectionViewItemAnimations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ACCF42117CCEC1700F56F10 /* Build configuration list for PBXNativeTarget "CollectionViewItemAnimations" */;
+			buildPhases = (
+				9ACCF3FA17CCEC1700F56F10 /* Sources */,
+				9ACCF3FB17CCEC1700F56F10 /* Frameworks */,
+				9ACCF3FC17CCEC1700F56F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollectionViewItemAnimations;
+			productName = CollectionViewItemAnimations;
+			productReference = 9ACCF3FE17CCEC1700F56F10 /* CollectionViewItemAnimations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ACCF3F617CCEC1700F56F10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = nd;
+			};
+			buildConfigurationList = 9ACCF3F917CCEC1700F56F10 /* Build configuration list for PBXProject "CollectionViewItemAnimations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9ACCF3F517CCEC1700F56F10;
+			productRefGroup = 9ACCF3FF17CCEC1700F56F10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ACCF3FD17CCEC1700F56F10 /* CollectionViewItemAnimations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ACCF3FC17CCEC1700F56F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACCF40C17CCEC1700F56F10 /* InfoPlist.strings in Resources */,
+				9ACCF41417CCEC1700F56F10 /* Default.png in Resources */,
+				9ACCF41617CCEC1700F56F10 /* Default@2x.png in Resources */,
+				9ACCF41817CCEC1700F56F10 /* Default-568h@2x.png in Resources */,
+				9ACCF43D17CCF49800F56F10 /* ColorNameCell.xib in Resources */,
+				9ACCF43F17CCF4A300F56F10 /* AddCell.xib in Resources */,
+				9ACCF44717CCFD1A00F56F10 /* ColorSectionHeaderView.xib in Resources */,
+				9ACCF44917CCFD2500F56F10 /* ColorSectionFooterView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ACCF3FA17CCEC1700F56F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACCF40E17CCEC1700F56F10 /* main.m in Sources */,
+				9ACCF41217CCEC1700F56F10 /* AppDelegate.m in Sources */,
+				9ACCF41B17CCEC1700F56F10 /* ColorCollectionViewController.m in Sources */,
+				9ACCF42C17CCEFF100F56F10 /* LessBoringFlowLayout.m in Sources */,
+				9ACCF43517CCF21A00F56F10 /* ColorName.m in Sources */,
+				9ACCF43817CCF48100F56F10 /* ColorNameCell.m in Sources */,
+				9ACCF43B17CCF48C00F56F10 /* AddCell.m in Sources */,
+				9ACCF44217CCFCF000F56F10 /* ColorSectionHeaderView.m in Sources */,
+				9ACCF44517CCFD0200F56F10 /* ColorSectionFooterView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9ACCF40A17CCEC1700F56F10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ACCF40B17CCEC1700F56F10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9ACCF41F17CCEC1700F56F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9ACCF42017CCEC1700F56F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ACCF42217CCEC1700F56F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollectionViewItemAnimations/CollectionViewItemAnimations-Prefix.pch";
+				INFOPLIST_FILE = "CollectionViewItemAnimations/CollectionViewItemAnimations-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9ACCF42317CCEC1700F56F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollectionViewItemAnimations/CollectionViewItemAnimations-Prefix.pch";
+				INFOPLIST_FILE = "CollectionViewItemAnimations/CollectionViewItemAnimations-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ACCF3F917CCEC1700F56F10 /* Build configuration list for PBXProject "CollectionViewItemAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ACCF41F17CCEC1700F56F10 /* Debug */,
+				9ACCF42017CCEC1700F56F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ACCF42117CCEC1700F56F10 /* Build configuration list for PBXNativeTarget "CollectionViewItemAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ACCF42217CCEC1700F56F10 /* Debug */,
+				9ACCF42317CCEC1700F56F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ACCF3F617CCEC1700F56F10 /* Project object */;
+}
